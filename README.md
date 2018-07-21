@@ -74,7 +74,19 @@ It works!
 A few examples of flight to random goals:
 
 ![TEST](./Images/goal-01_diagonal_altitude_6m.png)
-
+```
+Home lat : 37.79248, lon : -122.39745
+Global Home     => [lon, lat, alt]     : [-122.39745, 37.79248, 0]
+Global Position => [lon, lat, alt]     : [-122.3974512   37.7924799    0.147    ]
+Local Position  => [north, east, down] : [-0.01177589 -0.10558296 -0.147     ]
+Goal_Global Position => [lon, lat, alt]     : [-122.402185, 37.797114, -6.0]
+Goal_Local Position  => [north, east, down] : [ 511.46476133 -420.18249667    6.        ]
+Graph construction time:  169.23466086387634
+Found a path.
+path cost:  847.9527503758395
+path length:  28
+Route planning time:  169.86222314834595
+```
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
   
