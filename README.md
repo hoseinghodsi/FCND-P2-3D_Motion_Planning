@@ -59,16 +59,19 @@ planning_utils.py line XXX.
 
 #### 5. Modify A* to include diagonal motion (or replace A* altogether)
 
-In this project, I modified 'Action' class (planning_utils.py line XXX to YYY) and 'valid_actions' function (planning_utils.py line XXX to YYY) to incorporate diagonal motion. 
+In this project, I modified 'Action' class (planning_utils.py line XXX to YYY) and 'valid_actions' function (planning_utils.py line XXX to YYY) to incorporate diagonal motion. However, since I used "Probabilistic Roadmap" method to disretize the space into graph the diagonal motion functionallity was not used. 
+
+I replaced the A* function to be able to work with a non-uniform graph (planning_utils.py line XXX to YYY) and 
 
 #### 6. Cull waypoints 
 For this step you can use a collinearity test or ray tracing method like Bresenham. The idea is simply to prune your path of unnecessary waypoints. Explain the code you used to accomplish this step.
 
 
-
 ### Execute the flight
 #### 1. Does it work?
 It works!
+
+
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
   
