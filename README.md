@@ -39,39 +39,27 @@ This is the second project on Udacity's Flying Car Nanodegree. The code consists
   c. 'a_star' function:       Given a grid and heuristic function returns the lowest cost path from start to goal.    
   
           
-*'motion_planning.py'* is 
+*'motion_planning.py'* uses 'udacidrone API' to communicate with the drone/or simulator and ultimately initiate the flight. 
 
-Here's | A | Snappy | Table
---- | --- | --- | ---
-1 | `highlight` | **bold** | 7.41
-2 | a | b | c
-3 | *italic* | text | 403
-4 | 2 | 3 | abcd
 
 ### Implementing Your Path Planning Algorithm
 
 #### 1. Set your global home position
-Here students should read the first line of the csv file, extract lat0 and lon0 as floating point values and use the self.set_home_position() method to set global home. Explain briefly how you accomplished this in your code.
 
-
-And here is a lovely picture of our downtown San Francisco environment from above!
-![Map of SF](./misc/map.png)
+The home position is read at motion_planning.py line 165. It use the function read_home added to planning_utils.py
 
 #### 2. Set your current local position
-Here as long as you successfully determine your local position relative to global home you'll be all set. Explain briefly how you accomplished this in your code.
 
+global_to_local() function is called to transform the drones current global position into local position. planning_utils.py line XXX.
 
-Meanwhile, here's a picture of me flying through the trees!
-![Forest Flying](./misc/in_the_trees.png)
+#### 3. Set grid goal position from geodetic coords
 
-#### 3. Set grid start position from local position
-This is another step in adding flexibility to the start location. As long as it works you're good to go!
-
-#### 4. Set grid goal position from geodetic coords
-This step is to add flexibility to the desired goal location. Should be able to choose any (lat, lon) within the map and have it rendered to a goal location on the grid.
+global_to_local() function is called to transform any desired (lat, lon) coordination into a local goal position. 
+planning_utils.py line XXX.
 
 #### 5. Modify A* to include diagonal motion (or replace A* altogether)
-Minimal requirement here is to modify the code in planning_utils() to update the A* implementation to include diagonal motions on the grid that have a cost of sqrt(2), but more creative solutions are welcome. Explain the code you used to accomplish this step.
+
+In this project, I modified 'Action' class (planning_utils.py line XXX to YYY) and 'valid_actions' function (planning_utils.py line XXX to YYY) to incorporate diagonal motion. 
 
 #### 6. Cull waypoints 
 For this step you can use a collinearity test or ray tracing method like Bresenham. The idea is simply to prune your path of unnecessary waypoints. Explain the code you used to accomplish this step.
