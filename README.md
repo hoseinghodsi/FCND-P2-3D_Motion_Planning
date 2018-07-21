@@ -71,6 +71,9 @@ For this step you can use a collinearity test or ray tracing method like Bresenh
 #### 1. Does it work?
 It works!
 
+A few examples of flight to random goals:
+
+![TEST](./images/goal-01_diagonal_altitude_6m.png)
 
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
