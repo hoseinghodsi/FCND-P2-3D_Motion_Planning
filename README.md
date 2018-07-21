@@ -25,15 +25,21 @@ This is the second project on Udacity's Flying Car Nanodegree. The code consists
 ---
 ### Writeup / README
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
-
-You're reading it! Below I describe how I addressed each rubric point and where in my code each point is handled.
-
 ### Explain the Starter Code
 
 #### 1. Explain the functionality of what's provided in `motion_planning.py` and `planning_utils.py`
 *'planning_utili.py'* is called by *'motion_planning.py'* and provides the following functionallities upon request:
 
+  a. 'create_grid' function:  Returns a grid representation of a 2D configuration space  based on given obstacle data, 
+                              drone altitude and safety distance arguments.
+                                 
+  b. 'Action' class:          Defines the valid motion actions and assigns cost and distance traveled associated with each
+                              action to the action.
+                              
+  c. 'a_star' function:       Given a grid and heuristic function returns the lowest cost path from start to goal.    
+  
+          
+*'motion_planning.py'* is 
 
 Here's | A | Snappy | Table
 --- | --- | --- | ---
