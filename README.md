@@ -49,6 +49,9 @@ I replaced the A* function to be able to work with a non-uniform graph (planning
 
 I used collinearity test to implement the waypoint pruning algorithm (planning_utils.py line 299 to 322). However, since the only space discretization used in this project is "Probabilistic Roadmap" method, the calculated waypoints are too far from each other comparing to the distance between waypoints calculated by a grid discretization method. Therefore, the pruning function was not utilized during different flight runs, although it collinearity was checked in all of them.  
 
+---
+---
+
 ### Execute the flight
 #### 1. Does it work?
 It works!
