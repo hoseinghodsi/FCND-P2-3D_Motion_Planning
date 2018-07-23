@@ -90,6 +90,24 @@ Route planning time:  169.86222314834595
 ![TEST](./Images/goal-02_diagonal_altitude_6m.png)
 ![TEST](./Images/goal-03_diagonal_altitude_6m.png)
 
+![TEST](./Images/goal-04.png)
+```
+Home lat : 37.79248, lon : -122.39745
+Global Home     => [lon, lat, alt]     : [-122.39745, 37.79248, 0]
+Global Position => [lon, lat, alt]     : [-122.3974512   37.7924799    0.147    ]
+Local Position  => [north, east, down] : [-0.01177589 -0.10558296 -0.147     ]
+Goal_Global Position => [lon, lat, alt]     : [-122.402185, 37.797114, -6.0]
+Goal_Local Position  => [north, east, down] : [ 511.46476133 -420.18249667    6.        ]
+Graph construction time:  688.4606056213379
+Found a path.
+A* search time: 0.21869874000549316
+path cost:  1084.381629632116
+path length:  65
+Route planning time:  691.6503140926361
+```
+#*The captured video of this flight can be accessed via: https://drive.google.com/open?id=184AGW-s4zWWGYBQcfMLZCTxjZ9X12lv5*
+
+
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
   
 # Extra Challenges: Real World Planning
