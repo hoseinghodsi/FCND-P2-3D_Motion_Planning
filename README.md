@@ -87,6 +87,8 @@ path cost:  847.9527503758395
 path length:  28
 Route planning time:  169.86222314834595
 ```
+![TEST](./Images/goal-02_diagonal_altitude_6m.png)
+![TEST](./Images/goal-03_diagonal_altitude_6m.png)
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
   
