@@ -90,7 +90,7 @@ Route planning time:  169.86222314834595
 ![TEST](./Images/goal-02_diagonal_altitude_6m.png)
 ![TEST](./Images/goal-03_diagonal_altitude_6m.png)
 
-![TEST](./Images/goal-04.png)
+![TEST](./Images/goal4.png)
 ```
 Home lat : 37.79248, lon : -122.39745
 Global Home     => [lon, lat, alt]     : [-122.39745, 37.79248, 0]
