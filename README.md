@@ -105,7 +105,7 @@ path cost:  1084.381629632116
 path length:  65
 Route planning time:  691.6503140926361
 ```
-#*The captured video of this flight can be accessed via: https://drive.google.com/open?id=184AGW-s4zWWGYBQcfMLZCTxjZ9X12lv5*
+#*The captured video of this flight can be accessed via thi [link](https://drive.google.com/open?id=184AGW-s4zWWGYBQcfMLZCTxjZ9X12lv5). *
 
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
